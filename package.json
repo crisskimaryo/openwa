@@ -8,9 +8,6 @@
   "scripts": {
     "build": "nest build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
-    "start:dev": "node api.js && nest start --watch",
-    "start:debug": "node api.js && nest start --debug --watch",
-    "start:prod": "node api.js && node dist/main",
     "dashboard:install": "cd dashboard && npm install",
     "dashboard:dev": "cd dashboard && npm run dev",
     "dashboard:build": "cd dashboard && npm run build",
